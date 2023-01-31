@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Pokemon";
-  src: url("Pokemon Solid.ttf");
+  src: url("../font/Pokemon Solid.ttf");
 }
 
 @media only screen and (min-width: 768px) {
@@ -142,7 +142,7 @@
   }
 
   .img-container {
-    background-image: url("./blob.svg");
+    background-image: url("../media/blob.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -221,7 +221,6 @@
 
 
   /*
-
   */
 
   .stat-container {
@@ -297,4 +296,3 @@
     pointer-events: auto;
   }
 }
-
