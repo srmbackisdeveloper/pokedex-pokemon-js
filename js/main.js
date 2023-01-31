@@ -170,3 +170,22 @@ function removeChildNodes(parent) {
 }
 
 fetchPokemons(offset, limit);
+
+/*
+// querySelectors in/from html file:
+const pokemonContainer = document.querySelector(".pokemon-container");
+const pokemonModal = document.querySelector(".pokemon-modal");
+
+const spinner = document.querySelector("#spinner");
+const previous = document.querySelector("#previous");
+
+const next = document.querySelector("#next");
+const more = document.querySelector("#more");
+
+const moredamage = document.querySelector("#moredamage");
+const moredefence = document.querySelector("#moredefence");
+
+// Max pokemon number in one demonstration (~page)
+let limit = 8;
+let offset = 1;
+*/
