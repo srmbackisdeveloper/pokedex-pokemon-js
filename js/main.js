@@ -1,7 +1,9 @@
 const pokemonContainer = document.querySelector(".pokemon-container");
 const pokemonModal = document.querySelector(".pokemon-modal");
+
 const spinner = document.querySelector("#spinner");
 const previous = document.querySelector("#previous");
+
 const next = document.querySelector("#next");
 const more = document.querySelector("#more");
 
@@ -109,47 +111,6 @@ function createPokemon(pokemon) {
   flipCard.appendChild(infoPokemon);
 
   pokemonContainer.appendChild(flipCard);
-
-
-
-
-
-/*
-  const stats = document.createElement("div");
-  stats.classList.add("modal-container");
-  stats.id = `full${pokemon.id}`;
-
-  const pName = document.createElement("p");
-  pName.textContent = `${pokemon.id.toString().padStart(3, 0)}`
-  stats.appendChild(pName);
-
-  pokemonModal.appendChild(stats);
-*/
-
-}
-
-/*
-const open = document.getElementById("1");
-const modal_container = document.getElementById("full1");
-
-alert(open + " and " + modal_container);
-
-open.addEventListener("click", () => {
-  modal_container.classList.add("show");
-});
-*/
-
-
-
-
-
-
-
-
-
-
-
-
 
 function progressBars(stats) {
   const statsContainer = document.createElement("div");
